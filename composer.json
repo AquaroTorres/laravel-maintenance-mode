@@ -1,5 +1,5 @@
 {
-    "name": "atorres/laravel-maintenance-mode",
+    "name": "aquaro/laravel-maintenance-mode",
     "description": "Laravel Maintenance Mode without terminal access.",
     "type": "library",
     "require": {
