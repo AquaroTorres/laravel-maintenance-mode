@@ -5,7 +5,7 @@ namespace Aquaro\LaravelMaintenanceMode\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
-use App\Http\Middleware\PreventRequestsDuringMaintenance;
+use Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance;
 
 class MaintenanceController extends Controller
 { 
