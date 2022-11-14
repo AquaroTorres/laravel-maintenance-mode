@@ -1,12 +1,11 @@
 # Laravel Maintenance Mode without terminal access
 
-## Require laravel/laravel ^6.0
+## Require laravel/framework ^8.0
 
 ## Installation 
 - ```composer require aquaro/laravel-maintenance-mode```
 - Add MAINTENANCE_TOKEN on .env file
 - Add "maintenance" route on ```App\Http\Middleware\PreventRequestsDuringMaintenance.php``` 
-
 ```
 protected $except = [
     'maintenance',
