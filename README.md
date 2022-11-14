@@ -4,7 +4,7 @@
 
 ## Installation 
 - ```composer require aquaro/laravel-maintenance-mode```
-
+- Add MAINTENANCE_TOKEN on .env file
 - Add "maintenance" route on ```App\Http\Middleware\PreventRequestsDuringMaintenance.php``` 
 
 ```
@@ -13,7 +13,6 @@ protected $except = [
 ];
 ```
 
-- Add MAINTENANCE_TOKEN on .env file
 
 ## Routes
 - /maintenance
