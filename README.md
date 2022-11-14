@@ -1,6 +1,6 @@
 # Laravel Maintenance Mode without terminal access
 
-## Require laravel/framework ^8.0|^9.0
+## Require laravel/framework ^9.0
 
 ## Installation 
 - ```composer require aquaro/laravel-maintenance-mode```
