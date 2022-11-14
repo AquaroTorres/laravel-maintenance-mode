@@ -1,6 +1,6 @@
 # Laravel Maintenance Mode without terminal access
 
-## Require laravel/framework ^8.0
+## Require laravel/framework ^8.0|^9.0
 
 ## Installation 
 - ```composer require aquaro/laravel-maintenance-mode```
@@ -12,10 +12,8 @@ protected $except = [
 ];
 ```
 
-
 ## Routes
 - /maintenance
-
 
 ## License
 Open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
