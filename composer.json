@@ -1,0 +1,21 @@
+{
+    "name": "atorres/laravel-maintenance-mode",
+    "description": "Laravel Maintenance Mode without terminal access.",
+    "type": "library",
+    "require": {
+        "laravel/laravel": "^6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Atorres\\LaravelMaintenanceMode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AquaroTorres",
+            "email": "alvarotorres@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
