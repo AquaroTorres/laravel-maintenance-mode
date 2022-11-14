@@ -8,7 +8,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Atorres\\LaravelMaintenanceMode\\": "src/"
+            "Aquaro\\LaravelMaintenanceMode\\": "src/"
         }
     },
     "authors": [
@@ -17,5 +17,12 @@
             "email": "alvarotorres@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aquaro\\LaravelMaintenanceMode\\MaintenanceModeServiceProvider"
+            ]
+        }
+    }
 }
